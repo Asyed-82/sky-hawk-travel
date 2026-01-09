@@ -1,0 +1,88 @@
+// Mobile Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuBtn = document.querySelector('.mobile-menu');
+    const navMenu = document.querySelector('nav ul');
+    
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navMenu.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+    }
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!event.target.closest('nav') && navMenu.classList.contains('active')) {
+            navMenu.classList.remove('active');
+            mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+        }
+    });
+    
+    // Newsletter Form Submission
+    const newsletterForm = document.querySelector('.newsletter-form');
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const email = emailInput.value;
+            
+            if (email) {
+                // In a real application, you would send this to your server
+                alert(`Thank you for subscribing with ${email}! You'll receive our travel deals soon.`);
+                emailInput.value = '';
+            }
+        });
+    }
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                if (navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                }
+            }
+        });
+    });
+    
+    // Tour card hover effects
+    const tourCards = document.querySelectorAll('.tour-card');
+    tourCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+    
+    // Current year in footer
+    const yearElement = document.querySelector('#current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+    
+    // Phone number formatting and click tracking
+    const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+    phoneLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            console.log('Phone number clicked:', this.getAttribute('href'));
+            // You can add analytics tracking here
+        });
+    });
+});
