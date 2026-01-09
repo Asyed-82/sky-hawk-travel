@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Hawk Travel & Tourism - Best Travel Packages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-text">
+                    <span class="logo-line1">SKY HAWK</span>
+                    <span class="logo-line2">TRAVEL & TOURISM Pvt Ltd</span>
+                </div>
+                <div class="logo-tagline">ENJOY YOUR TRIP!</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tel:0514474327" class="cta-button"><i class="fas fa-phone"></i> 051-4474327</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>PLAN YOUR NEXT JOURNEY WITH OFFERING BEST RATES</h1>
+                <p>Experience the world with our expertly curated travel packages. From local getaways to international adventures.</p>
+                <div class="hero-buttons">
+                    <a href="tours.html" class="btn-primary">Explore Tours</a>
+                    <a href="contact.html" class="btn-secondary">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tours -->
+    <section class="featured-tours">
+        <div class="container">
+            <h2>Our Featured Travel Packages</h2>
+            <p class="section-subtitle">Handpicked journeys for unforgettable experiences</p>
+            
+            <div class="tour-grid">
+                <div class="tour-card">
+                    <div class="tour-image" style="background-color: #4a90e2;">
+                        <div class="tour-price">$899</div>
+                        <div class="tour-badge">BEST SELLER</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Swiss Alps Adventure</h3>
+                        <p class="tour-duration"><i class="far fa-calendar"></i> 7 Days / 6 Nights</p>
+                        <p class="tour-description">Experience breathtaking mountain views, ski resorts, and alpine villages.</p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-hotel"></i> 4-Star Hotels</span>
+                            <span><i class="fas fa-utensils"></i> Breakfast Included</span>
+                        </div>
+                        <a href="#" class="btn-tour">View Details</a>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-image" style="background-color: #50c878;">
+                        <div class="tour-price">$1,299</div>
+                        <div class="tour-badge">LUXURY</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Maldives Paradise</h3>
+                        <p class="tour-duration"><i class="far fa-calendar"></i> 5 Days / 4 Nights</p>
+                        <p class="tour-description">Overwater bungalows, crystal clear waters, and private beach dinners.</p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-hotel"></i> 5-Star Resort</span>
+                            <span><i class="fas fa-swimming-pool"></i> Private Pool</span>
+                        </div>
+                        <a href="#" class="btn-tour">View Details</a>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-image" style="background-color: #ff6b6b;">
+                        <div class="tour-price">$749</div>
+                        <div class="tour-badge">CULTURAL</div>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Turkey Historical Tour</h3>
+                        <p class="tour-duration"><i class="far fa-calendar"></i> 8 Days / 7 Nights</p>
+                        <p class="tour-description">Explore ancient ruins, Ottoman palaces, and vibrant bazaars.</p>
+                        <div class="tour-features">
+                            <span><i class="fas fa-hotel"></i> Heritage Hotels</span>
+                            <span><i class="fas fa-bus"></i> Guided Tours</span>
+                        </div>
+                        <a href="#" class="btn-tour">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <h2>Why Choose Sky Hawk Travel?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>We offer competitive rates with no hidden charges. Find a better price? We'll match it!</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Expert Guidance</h3>
+                    <p>Our travel consultants have 15+ years of experience in creating perfect itineraries.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock assistance during your trip. We're always just a call away.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-passport"></i>
+                    </div>
+                    <h3>Visa Assistance</h3>
+                    <p>Complete visa processing support for all major destinations worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Travelers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Sky Hawk arranged our honeymoon to Bali perfectly. Every detail was taken care of. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Ali & Sara</strong>
+                        <span>Honeymoon Package</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Best rates in Rawalpindi! Our family trip to Turkey was seamless from start to finish."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Ahmed Family</strong>
+                        <span>Family Vacation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready for Your Next Adventure?</h2>
+            <p>Contact us today for personalized travel planning</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Send Inquiry</a>
+                <a href="tel:0514474327" class="btn-secondary"><i class="fas fa-phone"></i> Call Now: 051-4474327</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-text">
+                            <span class="logo-line1">SKY HAWK</span>
+                            <span class="logo-line2">TRAVEL & TOURISM</span>
+                        </div>
+                        <p class="footer-tagline">ENJOY YOUR TRIP!</p>
+                    </div>
+                    <p class="footer-address">
+                        <i class="fas fa-map-marker-alt"></i> Naimat Market, Kuri Road, Rawalpindi
+                    </p>
+                    <p class="footer-phone">
+                        <i class="fas fa-phone"></i> 051-4474327
+                    </p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="tours.html">Tour Packages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Popular Destinations</h4>
+                    <ul>
+                        <li><a href="#">Switzerland</a></li>
+                        <li><a href="#">Maldives</a></li>
+                        <li><a href="#">Turkey</a></li>
+                        <li><a href="#">Dubai</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p class="footer-newsletter">Subscribe for travel deals</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sky Hawk Travel & Tourism Pvt Ltd. All rights reserved.</p>
+                <p>Enjoy Your Trip! | Best Rates Guaranteed</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
