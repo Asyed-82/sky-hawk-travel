@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sky Hawk Travel & Tourism</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-text">
+                    <span class="logo-line1">SKY HAWK</span>
+                    <span class="logo-line2">TRAVEL & TOURISM Pvt Ltd</span>
+                </div>
+                <div class="logo-tagline">ENJOY YOUR TRIP!</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tel:0514474327" class="cta-button"><i class="fas fa-phone"></i> 051-4474327</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>About Sky Hawk Travel</h1>
+                <p>Your trusted partner in creating unforgettable travel experiences since 2010</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-content" style="padding: 80px 0;">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Founded in 2010 in Rawalpindi, Sky Hawk Travel & Tourism began with a simple mission: to make travel accessible, affordable, and unforgettable for everyone. What started as a small local agency has grown into a trusted name in travel planning across Pakistan.</p>
+                    
+                    <p>Our founder, Mr. Ahmed Khan, believed that everyone deserves to experience the beauty of the world. With over 15 years of experience in the travel industry, he built Sky Hawk on the principles of integrity, expertise, and personalized service.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To provide exceptional travel experiences with the best rates, personalized service, and complete peace of mind. We believe travel should be about creating memories, not worrying about logistics.</p>
+                    
+                    <h3>Our Values</h3>
+                    <ul class="values-list">
+                        <li><strong>Integrity:</strong> Honest pricing with no hidden charges</li>
+                        <li><strong>Expertise:</strong> 15+ years of travel industry experience</li>
+                        <li><strong>Personalization:</strong> Tailored itineraries for every traveler</li>
+                        <li><strong>Reliability:</strong> 24/7 support during your journey</li>
+                        <li><strong>Value:</strong> Best price guarantee on all packages</li>
+                    </ul>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">14+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-label">Happy Travelers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Destinations</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Customer Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section" style="background: #f8f9fa; padding: 80px 0;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px;">Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image" style="background: #3498db;"></div>
+                    <h3>Ahmed Khan</h3>
+                    <p class="member-role">Founder & CEO</p>
+                    <p>15+ years in travel industry</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image" style="background: #e74c3c;"></div>
+                    <h3>Sara Ahmed</h3>
+                    <p class="member-role">Travel Consultant</p>
+                    <p>Specializes in European tours</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image" style="background: #2ecc71;"></div>
+                    <h3>Bilal Hassan</h3>
+                    <p class="member-role">Operations Manager</p>
+                    <p>Visa & logistics expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reuse Why Choose Us section from index.html -->
+    <section class="why-choose">
+        <div class="container">
+            <h2>Why Travel With Us?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Award Winning Service</h3>
+                    <p>Recognized as "Best Travel Agency 2023" by Pakistan Travel Awards</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Financial Protection</h3>
+                    <p>All packages include travel insurance and financial security</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <h3>Global Network</h3>
+                    <p>Partners in 50+ countries for seamless travel experiences</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Personal Touch</h3>
+                    <p>We remember your preferences for future travel planning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-text">
+                            <span class="logo-line1">SKY HAWK</span>
+                            <span class="logo-line2">TRAVEL & TOURISM</span>
+                        </div>
+                        <p class="footer-tagline">ENJOY YOUR TRIP!</p>
+                    </div>
+                    <p class="footer-address">
+                        <i class="fas fa-map-marker-alt"></i> Naimat Market, Kuri Road, Rawalpindi
+                    </p>
+                    <p class="footer-phone">
+                        <i class="fas fa-phone"></i> 051-4474327
+                    </p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="tours.html">Tour Packages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Flight Booking</a></li>
+                        <li><a href="#">Hotel Reservations</a></li>
+                        <li><a href="#">Visa Processing</a></li>
+                        <li><a href="#">Tour Packages</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sky Hawk Travel & Tourism Pvt Ltd. All rights reserved.</p>
+                <p>Naimat Market, Kuri Road, Rawalpindi | 051-4474327</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- Add About Page Specific Styles -->
+    <style>
+        .about-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+        
+        .about-text h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+        }
+        
+        .about-text h3 {
+            color: #2c3e50;
+            margin: 30px 0 15px;
+            font-size: 1.5rem;
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #5d6d7e;
+        }
+        
+        .values-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .values-list li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+            color: #5d6d7e;
+        }
+        
+        .values-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-weight: bold;
+        }
+        
+        .about-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-top: 4px solid #3498db;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .team-member {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .member-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+        }
+        
+        .team-member h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .member-role {
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .team-member p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-stats {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .about-stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
